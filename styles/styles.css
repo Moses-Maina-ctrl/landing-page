@@ -12,11 +12,14 @@ header{
     background-color: var(--header-bgcolor);
     display: flex;
     justify-content: space-around;
+    gap:200px;
+  
 
 }
 .logo{
     color:#f9faf8;
     font-size: 24px;
+    
 }
 .links, .secondary_text {
     color: #e5e7eb;
@@ -24,10 +27,40 @@ header{
 }
 ul li{
     list-style-type: none;
-    display: inline;
-    padding: 0 5px;
+    display: inline-block;
+    padding:   10px;
 }
 .hero{
     
     background-color: var(--header-bgcolor);
+}
+h1{
+    color: #f9faf8;
+    font-size: 48px ;
+    font-weight: 800;
+    max-width: 300px;
+    margin:0;
+}
+.hero_text{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    
+    
+}
+.hero2{
+    display: flex;
+    justify-content: space-around;
+}
+.secondary_text {
+    margin: 0;
+    max-width: 550px;
+}
+blockquote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    margin:0;
+    text-align: center;
 }
