@@ -1,0 +1,33 @@
+:root{
+    
+    --header-bgcolor:#1F2937;
+
+}
+body{
+    margin:0;
+    padding: 0;
+}
+header{
+    
+    background-color: var(--header-bgcolor);
+    display: flex;
+    justify-content: space-around;
+
+}
+.logo{
+    color:#f9faf8;
+    font-size: 24px;
+}
+.links, .secondary_text {
+    color: #e5e7eb;
+    font-size:18px;
+}
+ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 0 5px;
+}
+.hero{
+    
+    background-color: var(--header-bgcolor);
+}
